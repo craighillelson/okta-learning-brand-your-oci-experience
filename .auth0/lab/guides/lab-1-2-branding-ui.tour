@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "#2 - Set up a brand in the Okta Admin Console",
+  "nextTour": "#3 - Manage brands and themes with Okta APIs",
+  "steps": [
+    {
+      "title": "Lab Overview",
+      "description": "## Set up a brand in the Okta Admin Console\n\n🎯 **Objective:**  Create a brand in the Okta Admin Console and customize the theme.   \n\n🎬 **Scenario**    The ice cream company Okta Ice needs a branded Okta pages for a complete white label experience.\n\n⏱️ **Duration:**   15 minutes\n"
+    },
+    {
+      "title": "Create a brand",
+      "description": "## Create a brand\n\n> You should be logged into the Okta Admin Console as your Super Admin account.\n\n1. From the Okta Admin Console, go to **Customizations** > **Brands**.\n2. Select the **+ Create brand** button.\n3. Name your brand **Okta Ice** and select the **Create brand** button."
+    },
+    {
+      "title": "Customize your theme",
+      "description": "## Customize your theme\n\n1. Select **Okta Ice** from your list of brands. \n>Notice you're now on the Theme tab, where you can customize your brand's theme.\n2. Download the following images: \n    - https://cdn.auth0.com/website/okta-learning/labs/ice-logo.png\n    - https://cdn.auth0.com/website/okta-learning/labs/favicon.png\n    - https://cdn.auth0.com/website/okta-learning/labs/ice-cream-bg.png\n3. Update the **Logo** to ice-logo.png.\n4. Update the **Background** to ice-cream-bg.png.\n5. Update the **Favicon** to favicon.png.\n6. Update the Primary color to `#2d75bb`.\n7. Update the Secondary color to `#c7e5f5`.\n8. Select the **Save** button."
+    },
+    {
+      "description": "## Preview themes\n\nYou can preview the look and feel of Okta pages and from the Themes tab. By default, the Sign-in page preview is shown.\n\n1. Use the dropdown menu to select other preview options such as **Error pages** and **Emails**.\n2. Switch back to **Sign-in page** and select **Customize**.\n\n>This is where you can toggle on the Code editor for advanced customizations. However, this requires setting up a custom domain that you have ownership of."
+    },
+    {
+      "title": "Lab Checkpoint",
+      "description": "## ✅  Checkpoint\nWe have seen how we could customize Okta pages through the Okta Admin Console by configuring a theme associated with a brand. In order to enable advanced branding through the code editor, you would need to [configure an custom domain](https://help.okta.com/oie/en-us/content/topics/settings/settings-configure-custom-url.htm) using a domain that you own.\n\nIn the next lab, you will use Okta APIs to manage brands and themes."
+    }
+  ]
+}

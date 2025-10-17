@@ -1,18 +1,15 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "#1 - Set Up Your Okta Org",
+  "title": "#1 - Prerequisites",
+  "nextTour": "#2 - Set up a brand in the Okta Admin Console",
   "steps": [
     {
-      "title": "Lab overview",
-      "description": "## Set Up Your Okta Org\n\n🎯 **Objective**:    Create an Okta Intefrator Free Plan account and authenticate into your Okta organization's Admin Dashboard.\n\n⏱️ **Duration**:    5 minutes\n"
+      "title": "Okta org",
+      "description": "## Prerequisites: Okta org\n\nThis lab assumes you already have set up an Okta org. If you haven't already, [register](https://developer.okta.com/signup/) Okta Integrator Free Plan under Okta Workforce Identity.\n\n\nDuring this process you must:\n\n1. Verify your email.\n2. Set your password.\n3. [Enroll in Okta Verify](https://help.okta.com/eu/en-us/content/topics/end-user/ov-overview.htm?cshid=csh-user-ov-overview).\n\nOnce you are done, you will be logged in to your Okta Admin Console as a [Super Admin](https://help.okta.com/en-us/content/topics/security/administrators-super-admin.htm)."
     },
     {
-      "title": "Register for an Okta Integrator Free Plan",
-      "description": "## Register for an Okta Integrator Free Plan\n\nIf you haven't already, [register](https://developer.okta.com/signup/) Okta Integrator Free Plan under Okta Workforce Identity.\n\n\nDuring this process you must:\n\n1. Verify your email.\n2. Set your password.\n3. [Enroll in Okta Verify](https://help.okta.com/eu/en-us/content/topics/end-user/ov-overview.htm?cshid=csh-user-ov-overview).\n\nOnce you are done, you will be logged in to your Okta Admin Dashboard as a [Super Admin](https://help.okta.com/en-us/content/topics/security/administrators-super-admin.htm)."
-    },
-    {
-      "title": "Lab checkpoint",
-      "description": "## ✅ Checkpoint\n\nAt this point, you are ready to complete the lab!\n"
+      "title": "GitHub secrets",
+      "description": "## Prerequisites: GitHub secrets\n\nThis lab also assumes you have your Okta org's base URL set as a GitHub secret named **BASE_OKTA_URL**. \n\n### If you've done this in a previous lab:\n\n1. [Edit the secret](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-your-account-specific-secrets-for-github-codespaces#editing-a-secret) to add **OktaEdu/okta-learning-brand-your-oci-experience** to *Repository access*.\n\n\n### If you haven't created the secret:\n\n1. In your **Okta Admin Console**, select your username in the top right hand corner and you should see your Okta org's URL. \n2. Hover your mouse over the URL and select **Copy to clipboard**.\n3. In a new tab, go to https://github.com.\n8. On the GitHub page, select your profile picture at the top right, then select **Settings**\n9. In the *Code, planning, and automation* section of the sidebar, select **Codespaces**.\n10. To the right of *Codespaces secrets*, select **New secret**.\n11. Under *Name*, name your secret **BASE_OKTA_URL**.\n12. Under *Value*, enter **https://** and then paste the token value you copied in Step 2. The end result will look like **https://{oktadomain}.okta.com**.\n13. Select the *Repository access* drop-down menu, add **OktaEdu/okta-learning-brand-your-oci-experience**.\n14. Select **Add Secret**.\n15. When prompted in Codespaces, select the **Reload to apply** button. This must be done for your environment to have access to this secret."
     }
   ],
   "isPrimary": true

@@ -1,6 +1,6 @@
 # Lab: Brand Your Okta Customer Identity Experience
 
-In this  [Okta Learning](https:/learning.okta.com) lab, you will configure a custom brand in the Okta Admin dashboard and apply it to the Okta-hosted Sign-in Widget and Okta error pages. You will then implement customizations for an email template using Okta Expression Language. Next, you will test the end-user sign-up and sign-in experience with a customer portal app. Last, you will use the Brands API to retrieve your custom branding settings.
+In this  [Okta Learning](https:/learning.okta.com) lab, you will configure a custom brand in the Okta Admin Console and apply it to the Okta-hosted Sign-in Widget and Okta error pages. You will then implement customizations for an email template using Okta Expression Language. Next, you will test the end-user sign-up and sign-in experience with a customer portal app. Last, you will use the Brands API to retrieve your custom branding settings.
 
 
 ## Create Required Free Accounts
